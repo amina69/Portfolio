@@ -116,6 +116,10 @@ header.custom{
     margin: 150px 0 100px 0;
 }
 
+.about-section{
+    margin-top: 150px;
+}
+
 .header.contact-section{
     margin-top: 220px;
 }
@@ -653,8 +657,12 @@ footer.year{
         display: none;
     }
 
-    .about-section, .header.contact-section, .header.reviews-section {
+    .header.contact-section, .header.reviews-section {
         margin-top: 160px;
+    }
+
+    .about-section{
+        margin-top: 120px;
     }
 
     .header.custom {
@@ -999,8 +1007,12 @@ footer.year{
         padding: 20px;
     }
 
-    .about-section, .header.contact-section, .header.reviews-section {
+    .header.contact-section, .header.reviews-section {
         margin-top: 130px;
+    }
+
+    .about-section{
+        margin-top: 0;
     }
 
     .chevron-left-btn, .chevron-right-btn {
