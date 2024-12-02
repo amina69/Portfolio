@@ -1,0 +1,1068 @@
+@font-face { font-family: "Amaranth-Regular"; src: url(assets/fonts/Amaranth/Amaranth-Regular.ttf) }
+@font-face { font-family: "Amaranth-Bold"; src: url(assets/fonts/Amaranth/Amaranth-Bold.ttf) }
+@font-face { font-family: "Manrope-Light"; src: url(assets/fonts/Manrope/Manrope-Light.ttf) }
+@font-face { font-family: "Manrope-Regular"; src: url(assets/fonts/Manrope/Manrope-Regular.ttf) }
+@font-face { font-family: "Manrope-Medium"; src: url(assets/fonts/Manrope/Manrope-Medium.ttf) }
+@font-face { font-family: "Manrope-Semibold"; src: url(assets/fonts/Manrope/Manrope-SemiBold.ttf) }
+@font-face { font-family: "Manrope-Bold"; src: url(assets/fonts/Manrope/Manrope-Bold.ttf) }
+@font-face { font-family: "Manrope-Extrabold"; src: url(assets/fonts/Manrope/Manrope-ExtraBold.ttf) }
+
+
+/* BODY */
+
+body{
+    font-family: 'Amaranth-Bold';
+    color: #1A1A1A;
+    background-color: #1A1A1A;
+}
+
+/* NAV */
+
+.navbar{
+    background-color: #1A1A1A;
+}
+
+.navbar-brand, .navbar-brand span{
+    font-family: 'Amaranth-Regular';
+    /* color: #1A1A1A; */
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.navbar-brand span{
+    color: #007ACC;
+}
+
+.nav-list a{
+    font-family: 'Manrope-Medium';
+    text-decoration: none;
+    margin: auto 20px;
+    color: #A1A1A1;
+    font-size: 14px;
+}
+
+.nav-list a.active{
+    font-family: 'Manrope-Extrabold';
+    /* color: #1A1A1A; */
+    color: #ffffff;
+}
+
+/* SCROLL MORE */
+
+.scroll-more{
+    position: fixed;
+    right: 30px;
+    top: 60%;
+    writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+
+.scroll-more img{
+    width: 16px;
+}
+
+.scroll-more div{
+    font-family: 'Manrope-Bold';
+    color: #828282;
+    font-size: 12px;
+    text-orientation:upright;
+    margin: 10px auto;
+}
+
+/* SECTIONS */
+
+.tools-section{
+    padding: 50px 0px;
+}
+
+.contact-section, .reviews-section, .about-section, .projects-section, .actions-section{
+    background-color: #1A1A1A;
+}
+
+/* .tools-section .other-section{
+    background-image: linear-gradient(to right, #DCF9FF , #DBE4FF , #EDE7FF);
+} */
+
+.pdetails-section{
+    padding: 40px 0 80px;
+}
+
+.other-section{
+    padding: 80px 0;
+}
+
+/* HEADER & ABOUT ME */
+
+header{
+    height: 100vh;
+}
+
+header.secondary{
+    height: auto;
+}
+
+header.custom{
+    height: 70vh;
+}
+
+.header{
+    margin: 150px 0 100px 0;
+}
+
+.about-section{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.header.contact-section{
+    margin-top: 220px;
+}
+
+.actions-section h1, .header h1{
+    font-size: 54px;
+}
+
+.about-section h2, .tools-section h2, .projects-section h2, .header.reviews-section h2, .header.contact-section h2{
+    font-family: 'Amaranth-Bold';
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.actions-section .img-box img, .img-box img, .about-section .img-box img{
+    width: 100%;
+}
+
+.about-section .img-box img{
+    width: 90%;
+}
+
+.about-section .img-box{
+    text-align: end;
+}
+
+.header.reviews-section .img-box img{
+    width: 80%;
+}
+
+.tools-section .img-box img{
+    width: 70%;
+}
+
+.header .text-box .experience, .actions-section .text-box .experience{
+    margin-bottom: 50px;
+}
+
+.header .text-box .experience.project{
+    width: 180px;
+}
+
+.actions-section .text-box p, .actions-section .text-box h1, .header .text-box h1, .header .text-box p{
+    margin-bottom: 20px;
+}
+
+.actions-section .text-box p, .header .text-box p, .about-section .text-box p, .tools-section .text-box p, .header.reviews-section .text-box p, .header.contact-section .text-box p{
+    font-family: 'Manrope-Regular';
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+
+.actions-section .text-box p{
+    margin-bottom: 50px;
+}
+
+.actions-section .text-box h1, .header .text-box p, .header .text-box h1, .about-section .text-box p, .about-section h2{
+    color: #ffffff; 
+}
+
+.header.reviews-section .text-box p{
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+
+.header .text-box p{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.about-section .text-box p{
+    padding-right: 30px;
+}
+
+.about-section .text-box img, .tools-section .text-box img, .projects-section .title img, .header.reviews-section .title img, .header.contact-section .text-box img{
+    width: 164px;
+    margin-bottom: 50px;
+}
+
+.header.reviews-section .title img {
+    margin-bottom: 0;
+}
+
+.experience{
+    font-family: 'Manrope-Bold';
+    font-size: 24px;
+    padding: 8px;
+    width: 250px;
+    background-image: linear-gradient(to right, #DCF9FF , #DBE4FF , #EDE7FF);
+    border-radius: 60px;
+}
+
+.header-actions .col-6 button, .projects-section .col-4 button{
+    border: none;
+    outline: none;
+    background-color: #007ACC;
+    padding: 15px 24px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Manrope-Extrabold';
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: left;
+    align-items: center;
+}
+
+.header-actions span:first-of-type{
+    margin-right: 20px;
+}
+
+
+.header-actions .col-6 button:hover, .projects-section .col-4 button:hover {
+    background-color: #0070bb;
+}
+
+.projects-section .col-4 button{
+    width: 150px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.header-actions .col-6 button span:first-of-type img{
+    margin-right: 16px;
+}
+
+.btn-spacing{
+    margin-bottom: 24px;
+}
+
+.next-icon img{
+    width: 10px;
+}
+
+/* PROJECTS */
+
+.chevron-left-btn, .chevron-right-btn{
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    margin: 0 14px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projects-section .cards, .reviews-section .slides{
+    margin-top: 30px;
+}
+
+.projects-section .card, .certs-section .card{
+    border: 1px solid #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.projects-section .card:hover{
+    border: 1px solid #ccc;
+}
+
+.projects-section .card-body {
+    padding: 24px 1rem;
+}
+
+.projects-section .card-body .card-title, .certs-section .card-body .card-title{
+    font-family: 'Manrope-Extrabold';
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.projects-section .card-body .tag.freelance{
+    border-radius: 30px;
+    background-color: #007ACC;
+    padding: 4px;
+    font-family: 'Manrope-Medium';
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 36%;
+    margin: 18px 0;
+}
+
+.projects-section .card-body .completed, .certs-section .card-body .completed{
+    font-family: 'Manrope-Medium';
+    font-size: 12px;
+    color: #A1A1A1;
+}
+
+.projects-section .card-body .date, .certs-section .card-body .date{
+    font-family: 'Manrope-Extrabold';
+    font-size: 16px;
+    color: #007ACC;
+}
+
+.card-box{
+    width: 24%;
+}
+
+/* REVIEWS */
+
+.review-box .text-box p, .review-box .text-box h2{
+    color: #FFFFFF;
+}
+
+.client-initials{
+    font-family: 'Manrope-Extrabold';
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #007ACC;
+}
+
+.client-name{
+    font-family: 'Amaranth-Bold';
+    font-size: 22px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+}
+
+.client-title{
+    font-family: 'Manrope-Regular';
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+/* GET IN TOUCH */
+
+.header.contact-section h2{
+    color: #FFFFFF;
+}
+
+.header.contact-section .text-box p{
+    color: #FFFFFF;
+}
+
+/* CONTACT FORM */
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 4px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Manrope-Regular';
+    font-size: 18px;
+    line-height: 34px;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    outline: 1px solid #828282;
+}
+
+input[type=text]::placeholder, input[type=email]::placeholder, textarea::placeholder {
+    font-family: 'Manrope-Light';
+    font-size: 14px;
+    color: #828282;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #007ACC;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Manrope-Extrabold';
+    letter-spacing: 1px;
+}
+
+input[type=submit]:hover {
+    background-color: #0070bb;
+}
+
+.contact-div .title{
+    font-family: 'Manrope-Medium';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact-div {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    width: 86%;
+}
+
+.contact-div label{
+    font-family: 'Manrope-Medium';
+    font-size: 14px; 
+}
+
+/* FOOTER */
+
+footer .navbar-brand, footer .navbar-brand span {
+    font-size: 20px;
+}
+
+footer{
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #1A1A1A;
+}
+
+footer.dark{
+    background-color: #1A1A1A;
+}
+
+footer.year{
+    font-family: 'Manrope-Bold';
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+}
+
+/* PROJECTS */
+
+.projects-section, .certs-section{
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.projects-section .card, .certs-section .card{
+    margin-bottom: 50px;
+}
+
+.projects .experience, .certs .experience{
+    width: 180px;
+}
+
+.header.cert .img-box img {
+    width: 86%;
+}
+
+.header.projects, .header.certs {
+    height: 60vh;
+}
+
+.projects .nav-list a{
+    margin: 0;
+    margin-right: 30px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #ffffff;
+}
+
+.nav-link {
+    font-family: 'Manrope-Semibold';
+    color: #A1A1A1;
+}
+
+.project .back{
+    padding: 30px 0 10px 0;
+    background-color: #1A1A1A;
+}
+
+.project .back a{
+    color: #FFFFFF;
+    font-family: 'Manrope-Medium';
+    font-size: 18px;
+}
+
+.project .back h2{
+    font-family: 'Amaranth-Bold';
+    font-size: 40px;
+    color: #007ACC;
+}
+
+.project .details-div h4{
+    font-family: 'Manrope-Bold';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.project .details-div p{
+    font-family: 'Manrope-Regular';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.project .details-div .paragraph{
+    padding: 10px 0 20px 0;
+    color: #FFFFFF;
+}
+
+.project .img-div img{
+    width: 84%;
+}
+
+.other-section .card{
+    padding: 40px 30px;
+    background-color: #212529;
+    border: none;
+    width: 32%;
+}
+
+.other-section .card .details{
+    margin-top: 10px;
+}
+
+.other-section .card .details .line:last-of-type{
+    margin-bottom: 50px;
+}
+
+.other-section .card .details .line div{
+    margin-left: 14px;
+    font-family: 'Manrope-Regular';
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.other-section .card .d-flex div{
+    color: #ffffff;
+    margin-left: 20px;
+    font-family: 'Manrope-Extrabold';
+    font-size: 24px;
+}
+
+
+/* CERTIFICATION */
+
+.projects-section.certs .card-body .card-title {
+    margin-bottom: 14px;
+}
+
+.projects-section .cards a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+
+
+/* RESPONSIVENESS */
+
+@media (min-width: 1500px) {
+
+    .header.actions-section, .header.contact-section, .header.reviews-section{
+        height: 100vh;
+        margin: 0;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1499px) {
+
+    .header.contact-section{
+        height: 100vh;
+        margin: 0;
+    }
+
+}
+
+
+@media (min-width: 1198px) and (max-width: 1399px) {
+
+    .card-box {
+        width: 32%;
+    }
+
+    .contact-div {
+        width: 96%;
+    }
+
+    .header.actions-section {
+        margin: 200px 0 100px 0;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* HEADERS */
+
+    .actions-section h1, .header h1 {
+        font-size: 48px;
+    }
+
+    .actions-section .text-box p, .header .text-box p, .about-section .text-box p, .tools-section .text-box p, .header.reviews-section .text-box p, .header.contact-section .text-box p {
+        font-size: 16px;
+    }
+
+    .header-actions .col-6 button, .projects-section .col-4 button {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .header.actions-section {
+        margin: 220px 0 100px 0;
+    }
+
+    /* ABOUT ME */
+
+    .about-section h2, .tools-section h2, .projects-section h2, .header.reviews-section h2, .header.contact-section h2 {
+        font-size: 50px;
+    }
+
+    .tools-section .img-box img {
+        width: 90%;
+    }
+
+     /* PROJECTS / CERTS */
+
+     .projects-section .card-body .tag.freelance {
+        width: 24%;
+    }
+
+    .projects-section .card-body .card-title, .certs-section .card-body .card-title {
+        font-size: 24px;
+    }
+
+    .card-box {
+        width: 48%;
+    }
+
+    .actions-section .card .header div {
+        font-size: 20px;
+    }
+
+    .other-section .card .d-flex div {
+        font-size: 20px;
+    }
+
+    .contact-div {
+        width: 100%;
+    }
+
+    .pdetails-section .header-actions .col-6 {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 20px) and (max-width: 991px) {
+
+    /* HEADERS */
+
+    .actions-section .col-md-6, .header .col-md-6, .about-section .col-md-6, .tools-section .col-md-6, .header.contact-section .col-md-6, 
+    .header.reviews-section .col-md-6 {
+        width: 100%;
+    }
+
+    .actions-section .col-md-6.img-box, .header .col-md-6.img-box{
+        display: none;
+    }
+
+    .header.contact-section, .header.reviews-section {
+        margin-top: 160px;
+    }
+
+    .about-section{
+        margin-top: 120px;
+    }
+
+    .header.custom {
+        height: 52vh;
+    }
+
+    .header.custom .text-box p{
+        margin-bottom: 0;
+    }
+
+
+     /* ABOUT ME - CONTACT ME - REVIEWS */
+
+     .header.reviews-section .col-md-6.img-box{
+        display: none;
+     }
+
+    .about-section .col-md-6.img-box, .tools-section .col-md-6.img-box{
+        order: 1;
+        text-align: start !important;
+    }
+
+    .about-section .col-md-6.img-box img, .tools-section .col-md-6.img-box img{
+        width: 45%;
+    }
+
+    .about-section .col-md-6.text-box, .tools-section .col-md-6.text-box, .header.reviews-section .col-md-6.text-box{
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .about-section h2, .tools-section h2, .projects-section h2, .header.reviews-section h2, .header.contact-section h2 {
+        font-size: 40px;
+    }
+
+    .actions-section .text-box p, .header .text-box p, .about-section .text-box p, .tools-section .text-box p, .header.reviews-section .text-box p, .header.contact-section .text-box p {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .about-section .text-box img, .tools-section .text-box img, .projects-section .title img, .header.contact-section .text-box img {
+        margin-bottom: 30px;
+    }
+
+    /* CONTACT ME */
+
+    .header.contact-section .col-md-6{
+        justify-content: start !important;
+    }
+
+    .header.contact-section .col-md-6.text-box{
+        margin-bottom: 40px;
+    }
+
+    /* PROJECTS */
+
+    .card-box {
+        width: 48%;
+    }
+
+    .other-section .card {
+        width: 48%;
+    }
+
+    .other-section .col-md-4:last-of-type {
+        margin-top: 30px;
+    }
+
+    .pdetails-section .header-actions .col-6{
+        width: 100%;
+    }
+
+    .project .img-div img {
+        width: 100%;
+    }
+
+    .other-section .card .header div {
+        font-size: 20px;
+    }
+
+    .project .back a {
+        margin-right: 10px;
+    }
+
+    .project .back h2 {
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CONTACT ME */
+
+    .contact-div {
+        width: 70%;
+    }
+
+    .header.actions-section {
+        margin: 250px 0 100px 0;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .scroll-more {
+        right: 2px;
+    }
+
+    .header.actions-section {
+        margin: 250px 0 100px 0;
+    }
+
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+
+    /* CONTACT ME */
+
+    .contact-div {
+        width: 100%;
+    }
+
+    /* PROJECTS / CERTS */
+
+    .card-box {
+        width: 100%;
+    }
+
+    .projects-section .card-body .tag.freelance, .certs-section .card-body .tag.freelance {
+        width: 20%;
+    }
+
+    .projects-section .card-body .card-title, .certs-section .card-body .card-title {
+        font-size: 24px;
+    }
+
+    .other-section .card {
+        width: 100%;
+    }
+
+    .other-section .col-md-4:last-of-type {
+        margin-top: 30px;
+    }
+
+    .pdetails-section .header-actions .col-6{
+        width: 100%;
+    }
+
+    .project .img-div img {
+        width: 100%;
+    }
+
+    .pdetails-section .details-div{
+        margin-top: 64px;
+    }
+
+    .other-section {
+        padding: 20px 0;
+    }
+
+    .other-section .col-md-4:nth-of-type(2), .other-section .col-md-4:nth-of-type(3) {
+        margin-top: 20px;
+    }
+
+    .pdetails-section {
+        padding: 50px 0;
+    }
+
+    .other-section .card .details .line:last-of-type {
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+
+    /* HEADERS */
+
+    .about-section .col-md-6.img-box img, .tools-section .col-md-6.img-box img{
+        width: 60%;
+    }
+
+    .header.reviews-section .col-md-6.img-box img {
+        width: 40%;
+    }
+
+    .tools-section {
+        padding: 50px 0 100px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .nav-list a {
+        margin: 0 20px 0 0;
+    }
+
+    .nav-list li {
+        padding: 14px 0;
+    }
+
+    .navbar {
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
+
+    .navbar-nav {
+        padding-top: 20px;
+    }
+
+    .header {
+        margin: 160px 0 140px 0;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .header.actions-section {
+        margin-top: 30%;
+    }
+
+    .about-section .col-md-6.img-box, .tools-section .col-md-6.img-box, .header.reviews-section .col-md-6.img-box {
+        text-align: center;
+    }
+
+    .about-section {
+        height: auto;
+        padding-top: 120px;
+    }
+
+    .about-section .col-md-6.img-box img, .tools-section .col-md-6.img-box img{
+        width: 100%;
+    }
+
+    .tools-section {
+        padding: 80px 0 100px;
+    }
+
+    footer .navbar-brand, footer .navbar-brand span {
+        font-size: 16px;
+    }
+
+    .scroll-more {
+        right: 2px;
+    }
+
+    .header-actions .col-6 button, .projects-section .col-4 button {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .project .back a {
+        font-size: 16px;
+    }
+
+    .project .back h2 {
+        font-size: 34px;
+    }
+
+    .about-section h2, .tools-section h2, .projects-section h2, .header.reviews-section h2, .header.contact-section h2 {
+        font-size: 34px;
+    }
+
+    .about-section .text-box img, .tools-section .text-box img, .projects-section .title img, .header.reviews-section .title img, .header.contact-section .text-box img {
+        width: 120px;
+    }
+
+    .header.reviews-section .col-md-6.text-box {
+        margin-top: 0;
+    }
+
+    .reviews-section .slides {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 510px) {
+
+    .actions-section h1, .header h1 {
+        font-size: 40px;
+    }
+
+    .projects-section .card-body .tag.freelance, .certs-section .card-body .tag.freelance {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 460px) and (max-width: 510px) {
+
+    .projects-section .card-body .tag.freelance, .certs-section .card-body .tag.freelance {
+        width: 22%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .header-actions .col-6 button, .projects-section .col-4 button {
+        text-align: center;
+        align-items: center;
+        justify-content: center !important;
+    }
+
+    .header-actions .col-6 img{
+        display: none;
+    }
+
+    .header-actions span:first-of-type {
+        margin-right: 0;
+    }
+
+    .navbar-toggler img{
+        width: 30px;
+    }
+
+    .navbar-brand, .navbar-brand span {
+        font-size: 24px;
+    }
+
+    .experience {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .header .text-box .experience.project {
+        width: 150px;
+    }
+
+    .header .text-box .experience{
+        margin-top: 50px;
+    }
+
+    .header .text-box .experience, .actions-section .text-box .experience {
+        margin-bottom: 30px;
+    }
+    
+    .contact-div {
+        padding: 20px;
+    }
+
+    .header.contact-section, .header.reviews-section {
+        margin-top: 130px;
+    }
+
+    .about-section{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .chevron-left-btn, .chevron-right-btn {
+        height: 48px;
+        width: 48px;
+    }
+
+    .header {
+        margin: 100px 0 80px 0;
+    }
+
+    .contact-div .title{
+        font-size: 16px;
+    }
+
+    .contact-div h3{
+        font-size: 20px;
+    }
+
+}
