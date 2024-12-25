@@ -30,6 +30,11 @@ body{
     letter-spacing: 2px;
 }
 
+.navbar-brand a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .navbar-brand span{
     color: #007ACC;
 }
