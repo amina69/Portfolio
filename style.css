@@ -217,7 +217,7 @@ header.custom{
     outline: none;
     background-color: #007ACC;
     padding: 12px 24px;
-    width: 92%;
+    width: 100%;
     color: #FFFFFF;
     font-family: 'Manrope-Extrabold';
     font-size: 16px;
@@ -320,6 +320,17 @@ header.custom{
 
 /* REVIEWS */
 
+.reviews-section img{
+    width: 180px;
+    margin-bottom: 24px;
+}
+
+.reviews-section .text{
+    font-family: 'Manrope-Extrabold';
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
 .review-box .text-box p, .review-box .text-box h2{
     color: #FFFFFF;
 }
@@ -343,6 +354,11 @@ header.custom{
     font-size: 14px;
     letter-spacing: 2px;
     color: #FFFFFF;
+}
+
+.reviews-section {
+    height: 100vh;
+    margin: 0;
 }
 
 /* GET IN TOUCH */
@@ -404,14 +420,14 @@ input[type=submit]:hover {
 
 .contact-div .title{
     font-family: 'Manrope-Medium';
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
 .contact-div {
     border-radius: 10px;
     background-color: #212529;
-    padding: 40px;
+    padding: 80px 40px;
     width: 86%;
     color: #FFFFFF;
 }
@@ -554,13 +570,14 @@ footer.year{
     font-size: 24px;
 }
 
-.contact-div .info:first-of-type{
-    margin-bottom: 50px;
+.contact-div a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
-
-.contact-div h3{
+.contact-div a h3{
     font-family: 'Manrope-Extrabold';
+    font-size: 22px;
 }
 
 
@@ -634,6 +651,10 @@ footer.year{
 
     .header.actions-section {
         margin: 220px 0 100px 0;
+    }
+
+    .nav-list a {
+        font-size: 12px;
     }
 
     /* ABOUT ME */
