@@ -6,29 +6,18 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/index.html'));
-});
-
-app.get('/about-me', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/about-me.html'));
+app.get('/:page?', (req, res) => {
+    const page = req.params.page || '/';
+    const filePath = path.join(__dirname, 'public', `${page}.html`);
+  
+    res.sendFile(filePath, (err) => {
+      if (err) {
+        res.status(404).send('Page Not Found');
+      }
+    });
   });
 
-app.get('/contact-me', (req, res) => {
-  res.sendFile(path.join(__dirname, '/public/contact-me.html'));
-});
 
-app.get('/reviews', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/reviews.html'));
-  });
-
-  app.get('/projects', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/projects.html'));
-  });
-
-  app.get('/certifications', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/certifications.html'));
-  });
 
 
 const PORT = process.env.PORT || 3000;
