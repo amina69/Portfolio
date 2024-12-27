@@ -718,7 +718,9 @@ footer.year{
         display: none;
     }
 
-    .header.contact-section, .header.reviews-section {
+    .header.contact-section 
+    /* .header.reviews-section  */
+    {
         margin-top: 160px;
     }
 
@@ -946,6 +948,10 @@ footer.year{
         margin: 160px 0 140px 0;
     }
 
+    .header.reviews-section{
+        margin: 0;
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -1075,7 +1081,9 @@ footer.year{
         padding: 20px;
     }
 
-    .header.contact-section, .header.reviews-section {
+    .header.contact-section
+     /* .header.reviews-section  */
+    {
         margin-top: 130px;
     }
 
@@ -1091,6 +1099,10 @@ footer.year{
 
     .header {
         margin: 100px 0 80px 0;
+    }
+
+    .header.reviews-section{
+        margin: 0;
     }
 
     .contact-div .title{
