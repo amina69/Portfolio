@@ -10,6 +10,10 @@
 
 /* BODY */
 
+a {
+    text-decoration: none;
+}
+
 body{
     font-family: 'Amaranth-Bold';
     color: #1A1A1A;
@@ -231,6 +235,15 @@ header.custom{
     align-items: center;
 }
 
+.header-actions .col-6 button.grey{
+    background-color: #212529;
+    color: #007ACC;
+}
+
+.header-actions .col-6 button.grey:hover{
+    background-color: #212529;
+}
+
 .header-actions span:first-of-type{
     margin-right: 20px;
 }
@@ -289,10 +302,21 @@ header.custom{
     padding: 24px 1rem;
 }
 
+.projects-section .card-body .protected {
+    font-family: 'Manrope-Semibold';
+    font-size: 14px;
+    color: #dc143c;
+}
+
+.lock {
+    width: 14px;
+    margin-right: 6px;
+}
+
 .projects-section .card-body .card-title, .certs-section .card-body .card-title{
     font-family: 'Manrope-Extrabold';
     font-size: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .projects-section .card-body .tag.freelance{
